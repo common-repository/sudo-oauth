@@ -1,0 +1,61 @@
+#toplevel_page_sudo-oauth-includes-admin img {
+	width: 36px;
+	height: 36px;
+	object-fit: contain;
+}
+.number-input {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 262px;
+	border: 1px solid #007cba;
+	background: #fff;
+}
+.number-input span {
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+	line-height: 35px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	background: #007cba;
+}
+.number-input span:last-child {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.number-input input{
+  	-webkit-appearance: none;
+  	text-align: center;
+  	width: calc(100% - 92px);
+	border: none !important;
+}
+.check-plugin {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #007cba;
+	border-radius: 5px;
+	line-height: 30px;
+	text-align: center;
+	background: #007cba;
+	color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.check-plugin label {
+	display: block;
+}
+.check-plugin label.active {
+	display: none;
+}
+.input-active {
+	display: none;
+}
+td input[type="text"] {
+    border: 1px solid #007acb;
+    border-radius: 0;
+}
